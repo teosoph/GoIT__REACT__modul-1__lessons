@@ -1,7 +1,13 @@
 import { Component } from "react";
+
+// Old lexicon
+// import React, { Component } from "react";
+// import React from "react";
+
 import { Increment } from "./Increment";
 
 export class Counter extends Component {
+  // export class Counter extends React.Component {
   state = {
     value: 10,
     open: true,
